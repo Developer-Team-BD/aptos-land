@@ -1,8 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import ConnectWallet from "./Pages/ConnectWallet/ConnectWallet";
 import Foxysend from "./Pages/Foxysend/Foxysend";
 import Home from "./Pages/Home/Home";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/foxysend" element={<Foxysend />} />
+        <Route path="/connectwallet" element={<ConnectWallet />} />
       </Routes>
     </>
   );

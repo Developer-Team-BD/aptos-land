@@ -1,9 +1,7 @@
 import React from "react";
 import RectangleBg from "../../assets/Rectangle-bg.png";
-import SearchIcon from "../../assets/SearchIcon.png";
 import UserIcon from "../../assets/User-Icon.png";
 import UsersIcon from "../../assets/Users-Icon.png";
-import ArrowIcon from "../../assets/arrow-down.png";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
